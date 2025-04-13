@@ -1,0 +1,43 @@
+{
+  "id": "itemacro",
+  "title": "Item Macro",
+  "version": "1.10.1",
+  "url": "https://github.com/jrleavey/ItemMacro-Updated",
+  "manifest": "https://raw.githubusercontent.com/jrleavey/ItemMacro-Updated/main/module.json",
+  "download": "https://github.com/jrleavey/ItemMacro-Updated/archive/refs/heads/main.zip",
+  "readme": "https://github.com/jrleavey/ItemMacro-Updated#readme",
+  "changelog": "https://github.com/jrleavey/ItemMacro-Updated/blob/main/CHANGELOG.md",
+  "bugs": "https://github.com/jrleavey/ItemMacro-Updated/issues",
+  "description": "A module that allows macros to be stored in items and executed in various places, now with support for a 'Macro' activity type in DnD5e.",
+  "authors": [
+    {
+      "name": "Kekilla",
+      "discord": "Kekilla#7036"
+    },
+    {
+      "name": "Honeybadger",
+      "discord": "honeybadger#2614",
+      "url": "https://ko-fi.com/badgerwerks"
+    },
+    {
+      "name": "Forien",
+      "discord": "forien",
+      "email": "mr.forien@gmail.com",
+      "url": "https://www.patreon.com/foundryworkshop"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "esmodules": [
+    "scripts/hooks.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
